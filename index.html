@@ -10,23 +10,25 @@
 <body>
     <header>
         <div class="hero-secondary">
-            <span class="hero-logo">
+            <div class="hero-logo">
                 <h1>My Portfolio</h1>
-            </span>
+            </div>
             <nav class="navigation">
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                 </ul>
             </nav>
         </div>
 
-        <div class="hero-main">
+        <div class="hero-main" id="about">
             <div class="hero-main-content">
                 <h2>Hi, I'm Cedrex!</h2>
-               <p>An aspiring web developer and Bachelor of Science in Information Technology student at Polytechnic University of the Philippines - Lopez Campus, building real-world projects one line of code at a time.</p>
-                <a class="button" href="#">View My Projects</a>
+                <p>An <strong>aspiring website developer</strong> and Bachelor of Science in Information Technology student at Polytechnic
+                    University of the Philippines - Lopez Campus, building real-world projects one line of code at a
+                    time.</p>
+                <a class="button" href="#projects">View My Projects</a>
             </div>
             <div class="hero-main-image">
                 <img src="./images/Picture_Placeholder.jpg" alt="place holder image">
@@ -35,13 +37,13 @@
     </header>
 
     <main>
-        <section class="projects-section">
+        <section class="projects-section" id="projects">
             <div class="title">
                 <h2>Projects</h2>
             </div>
             <div class="project-cards">
                 <div class="project-card">
-                <h3>CPP Projects Portfolio</h3>
+                    <h3>CPP Projects Portfolio</h3>
                     <img src="./images/cpp_project_portfolio_icon.png" alt="an icon of my cpp project portfolio">
                     <p>A collection of my C++ projects and assignments.</p>
                     <a href="https://cedrexpelagio.github.io/CPP_Projects_Portfolio/" target="_blank">View Project</a>
@@ -53,7 +55,7 @@
                     <a href="#">Project Link</a>
                 </div>
                 <div class="project-card">
-                     <h3>Project Title</h3>
+                    <h3>Project Title</h3>
                     <img src="#" alt="place holder image">
                     <p>Insert Text</p>
                     <a href="#">Project Link</a>
@@ -69,7 +71,8 @@
 
         <section class="quote-section">
             <blockquote>
-                <p>"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."</p>
+                <p>"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code
+                    as cleverly as possible, you are, by definition, not smart enough to debug it."</p>
                 <cite>- Brian Kernighan</cite>
             </blockquote>
         </section>
@@ -84,7 +87,7 @@
             <div class="contact-card">
                 <h3>Github</h3>
                 <img src="./images/github_logo.jpg" alt="github logo">
-                <a href="#">Contact</a>
+                <a href="https://github.com/cedrexpelagio" target="_blank">Contact</a>
             </div>
             <div class="contact-card">
                 <h3>Instagram</h3>
@@ -93,12 +96,12 @@
             </div>
         </section>
 
-         <section class="call-to-action">
+        <section class="call-to-action">
             <div>
-                <h3>Call to Action</h3>
-                <p>Sign Up</p>
+                <h2>Let's Work Together</h2>
+                <p>Open to freelance projects, collaborations, and opportunities. Feel free to reach out!</p>
             </div>
-            <a class="button" href="#">Sign Up</a>
+            <a class="button" href="#contact">Get In Touch</a>
         </section>
 
     </main>
