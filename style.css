@@ -1,3 +1,68 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation a {
+    color: white;
+}
+
+header,
+footer {
+    background-color: #1F2927;
+}
+
+.hero-main h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.hero-main p,
+.hero-main a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.button,
+.call-to-action {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+
+}
+
+.projects-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2927;
+}
+
+.quote-section {
+    background-color: #E5E7Eb;
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+footer p {
+    color: white;
+}
