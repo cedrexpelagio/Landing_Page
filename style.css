@@ -19,7 +19,8 @@ a {
 }
 
 header,
-footer {
+footer,
+.contact-section {
     background-color: #1F2927;
 }
 
@@ -52,11 +53,18 @@ footer {
     border: 0px;
 }
 
-.projects-section h2 {
+.projects-section h2,
+.contact-section h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2927;
 }
+
+.contact-section h2,
+.contact-section h3 {
+    color: white;
+}
+
 
 .quote-section {
     background-color: #E5E7Eb;
@@ -68,18 +76,25 @@ footer {
     font-weight: 300;
 }
 
+.quote-section cite {
+    font-weight: bold;
+    font-size: 28px;
+}
+
 footer p {
     color: white;
 }
 
 header .hero-main-image img,
-.projects-section img {
+.projects-section img,
+.contact-section img {
     width: 200px;
     height: auto;
     border: 5px solid #3882F6;
 }
 
-.projects-section .project-card img {
+.projects-section .project-card img,
+.contact-section img {
     width: 180px;
 }
 
@@ -110,24 +125,37 @@ header .hero-main {
     margin: 0px;
 }
 
-/*  */
+/* Projects and Contact Section */
 
-main .projects-section {
+.projects-section,
+.contact-section {
     text-align: center;
     padding: 10px 0px 50px;
 }
-main .projects-section .project-cards {
+.projects-section .project-cards,
+.contact-section .contact-cards {
     display: flex;
     justify-content: space-between;
     padding: 0px 225px;
     gap: 10px;
 }
 
-main .project-cards .project-card {
+.project-cards .project-card,
+.contact-cards .contact-card {
    flex: 1;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
+}
+
+.contact-cards .contact-card {
+    gap: 10px;
+}
+
+/* Quote Section */
+
+.quote-section {
+    padding: 50px 250px;
 }
 
