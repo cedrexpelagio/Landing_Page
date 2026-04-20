@@ -46,7 +46,10 @@ footer {
     border: 2px solid white;
     color: white;
     padding: 5px;
+}
 
+.hero-main .button {
+    border: 0px;
 }
 
 .projects-section h2 {
@@ -69,8 +72,20 @@ footer p {
     color: white;
 }
 
+header .hero-main-image img,
+.projects-section img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882F6;
+}
+
+.projects-section .project-card img {
+    width: 180px;
+}
+
 /* Layout Section */
 
+/* --- Header Section --- */
 header {
     padding: 10px 200px;
 }
@@ -95,8 +110,24 @@ header .hero-main {
     margin: 0px;
 }
 
-header .hero-main-image img {
-    width: 200px;
-    height: auto;
-    border: 5px solid #3882F6;
+/*  */
+
+main .projects-section {
+    text-align: center;
+    padding: 10px 0px 50px;
 }
+main .projects-section .project-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 225px;
+    gap: 10px;
+}
+
+main .project-cards .project-card {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
