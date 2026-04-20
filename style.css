@@ -41,12 +41,12 @@ footer,
     color: #F9FAF8
 }
 
-.button,
-.call-to-action {
+.button {
     background-color: #3882F6;
     border: 2px solid white;
     color: white;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .hero-main .button {
@@ -61,10 +61,11 @@ footer,
 }
 
 .contact-section h2,
-.contact-section h3 {
+.contact-section h3,
+.call-to-action-content h2,
+.call-to-action-content p {
     color: white;
 }
-
 
 .quote-section {
     background-color: #E5E7Eb;
@@ -81,6 +82,11 @@ footer,
     font-size: 28px;
 }
 
+.call-to-action-content {
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
 footer p {
     color: white;
 }
@@ -91,6 +97,7 @@ header .hero-main-image img,
     width: 200px;
     height: auto;
     border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 .projects-section .project-card img,
@@ -159,3 +166,28 @@ header .hero-main {
     padding: 50px 250px;
 }
 
+/* Call to Action Section */
+
+.call-to-action .call-to-action-content {
+    display: flex;
+    padding: 50px 100px;
+    margin: 50px 200px;
+    justify-content: space-between;
+}
+
+.call-to-action p,
+.call-to-action h2 {
+    margin: 0px;
+}
+
+.call-to-action .call-to-action-button {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer section */
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
